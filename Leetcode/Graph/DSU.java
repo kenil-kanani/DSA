@@ -7,7 +7,7 @@ public class DSU {
     List<Integer> size = new ArrayList<>();
 
     DSU(int n) {
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i <= n; i++) {
             parent.add(i);
             size.add(1);
         }
